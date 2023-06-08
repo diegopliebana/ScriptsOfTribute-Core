@@ -2,7 +2,7 @@
   "profiles": {
     "GameRunner": {
       "commandName": "Project",
-      "commandLineArgs": "Bots.MyFirstBot2 Bots.RandomBot -n 1"
+      "commandLineArgs": "Bots.ElasticMCTSBot Bots.RandomBot -n 5"
     }
   }
 }
