@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GameRunner": {
+      "commandName": "Project",
+      "commandLineArgs": "Bots.MyFirstBot2 Bots.RandomBot -n 1"
+    }
+  }
+}
