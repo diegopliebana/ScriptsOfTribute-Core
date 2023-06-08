@@ -29,4 +29,8 @@
       <Exec Command="copy ..\Bots\bin\Debug\netstandard2.1\Bots.dll ." />
     </Target>
 
+    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+      <Exec Command="cd ..\Bots&#xA;dotnet build&#xA;cd ..\GameRunner" />
+    </Target>
+
 </Project>
